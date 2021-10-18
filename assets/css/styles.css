@@ -131,6 +131,16 @@ nav ul li{
  padding: 0.3rem 0;
 }
 
+.bio-title{
+ text-align: center;
+
+}
+
+.bio-text{
+margin-top: -8%;
+}
+
+
 .more-about{
  background-color: var(--bg-color);
  padding: 1rem 6rem;
@@ -291,7 +301,7 @@ margin-bottom: var(--bottom-margin);
  flex-direction: column;
  position: fixed;
  right: 1%;
- bottom: 50%;
+ bottom: 30%;
 }
 
 .socicon {
