@@ -4,7 +4,7 @@ const ul = document.querySelector("nav ul");
 const nav = document.querySelector("nav");
 
 // Scroll to top selection
-const scrollUp = document.querySelector("#scroll-up");
+const b1= document.querySelector(".scroll-up");
 
 // Select nav links
 const navLink = document.querySelectorAll(".nav-link");
@@ -22,10 +22,24 @@ navLink.forEach((link) =>
 );
 
 // scroll to top functionality
-scrollUp.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-  });
-});
+window.addEventListener("scroll", () => {
+if(document.body.scrollTop>20 // document.documentElement.scrollTop>20){
+
+b1.style.display='block';
+
+  }else{
+
+ b1.style.display='none';
+}
+})
+
+b1.addEventListener('click',() =>{
+ window.scroll({
+  top:0,
+  behavior:"smooth"
+ }
+ )
+})
+
+
+
