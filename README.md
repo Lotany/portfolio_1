@@ -3,10 +3,10 @@
 #Portfolio website
 
 ##Author
-[@AbleKilinda](https://wa.me/message/Y6KZOSJOCIZAL1)
+[@AbleKilinda] (https://wa.me/message/Y6KZOSJOCIZAL1)
 
 ##Github repo
-Link to github Repo ()
+clone this Repo (https://github.com/Lotany/lotany.github.io.git)
 
 ##Sample
 
